@@ -68,6 +68,7 @@ h2 {
 
 #midsection {
 	margin-top:20px;
+	margin-bottom:120px;
 }
 #connect-with-me, #about-me-description{
 	box-shadow: 10px 10px 10px #727171;
@@ -85,6 +86,17 @@ h2 {
 	padding-left:0px;
 	padding-right:0px;
 }
+
+#about-me img {
+	width:33%;
+	clear:both;
+	float:left;
+}
+
+#about-me p {
+	padding:12px;
+	font-size:25px;
+}
 .contact-me-icon img{
 	max-width: 100%;
 	border-radius: 3px
@@ -92,4 +104,18 @@ h2 {
 .contact-me-icon {
 	padding:5px;
 }
+#copyright-footer {
+	border-top: 6px solid #4aaaa5;
+	background-color:#666;
+	color:#fff;
+	clear:both;
+	text-align:center;
+	font-size:18px;
+	line-height: 60px
+}
+#copyright-footer > div > p {
+	margin-bottom:0px;
+	color:white;
+}
+
 
