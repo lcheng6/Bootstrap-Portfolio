@@ -5,26 +5,41 @@
     <meta charset="UTF-8">
     <title>Liang Cheng Basic Portfolio</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
-    <header>
-      <div id="container">
-        <h1>
-        <strong>Liang Cheng</strong>
-        </h1>
-        <div id="navLinks">
-          <nav>
-            <a href="index.html">About</a>|<a href="#">Portfolio</a>|<a href="contact.html">Contact</a>
-          </nav>
-        </div>
-      </div>
-    </header>
-    <div id="container">
-      <div id="about-me-section">
-        
-        <div id="about-me-description">
-          <h2 id="about-me">
+    <div id="navheaderstripe">
+      <div id="navheader" class="container"> <!--begin id=navheader-->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><strong>Liang Cheng</strong></a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">About</a></li> <!-- TODO: add divider -->
+              <li><a href="#">Portfolio</a></li><!-- TODO: add divider https://github.com/twbs/bootstrap/issues/9501-->
+              <li><a href="contact.html">Contact</a></li> <!-- TODO: add divider -->
+            </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </div> <!--end id=navheader-->
+      </nav>
+    </div>
+    <div id="midsection" class="container"> <!--begin midsectoin-->
+      <div id="portfolio" class="col-md-9">
+        <div id="portfolio-images">
+          <h2 id="portfolio-titles">
             Portfolio
           </h2>  
           
@@ -52,20 +67,27 @@
           </div> <!-- end portfolio-images -->
 
         </div> <!-- end about-me-description -->
+        </div>
 
           
+        <div id="connect-with-me-container" class="col-md-3">
         <div id="connect-with-me">
-          <div id="connect-with-me-top">
-            <h2>
+          <h2>
             <strong>Connect with Me</strong>
-            </h2>
-          </div>
+          </h2>
           <ul>
-            <li><a href="https://github.com/lcheng6" target="_blank"><img src="images/github.png" alt="Matt Martin's GitHub Profile"></a></li>
+            <div class="col-md-4 contact-me-icon">
+              <li><a href="https://github.com/lcheng6" target="_blank"><img src="images/github.png" alt="Matt Martin's GitHub Profile"></a></li>
+            </div>
+            <div class="col-md-4 contact-me-icon">
             <li><a href="https://www.linkedin.com/in/liang-cheng-2039b81" target="_blank"><img src="images/linkedin.png" alt="Matt Martin's LinkedIn Profile"></a></li>
+            </div>
+            <div class="col-md-4 contact-me-icon">
             <li><a href="http://stackoverflow.com/users/4017961/liang-cheng" target="_blank"><img src="images/stackOverflow.png" alt="Stack Overflow"></a></li>
+            </div>
           </ul>
-        </div>
+          </div>
+        </div> <!-- end connect-with-me -->
       </div> <!-- end mid-section -->
       </div>
       <div class="footer">
