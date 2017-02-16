@@ -70,13 +70,17 @@ h2 {
 	margin-top:20px;
 	margin-bottom:120px;
 }
-#connect-with-me, #about-me-description, #portfolio-images{
+#connect-with-me, #about-me-description, #portfolio-images, #contact-form-section{
 	box-shadow: 10px 10px 10px #727171;
 	border-radius:6px;
 	padding:12px;
 	background-color:white;
 	margin: 0px;
 	display:inline-block;
+}
+
+#contact-form-section{
+	display:block;
 }
 #connect-with-me ul {
 	display:inline-block;
@@ -145,4 +149,30 @@ h2 {
 	text-align:center;
 	line-height:50px;
 	display:block:;
+}
+
+#contact-form-section label {
+	background:white;
+	width:66%;
+	float:left;
+	margin:2%;
+}
+
+#contact-form-section input, textarea {
+	width:100%;
+	display:inline-block;
+	font-size:16px;
+}
+
+#button {
+	padding:10px;
+	background-color:#4aaaa5;
+	color:#fff;
+	width:30%;
+	border-radius:6px;
+	font-size:16px;
+
+}
+#button:hover {
+	font-size:24px;
 }
