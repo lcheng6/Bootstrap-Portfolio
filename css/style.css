@@ -70,12 +70,13 @@ h2 {
 	margin-top:20px;
 	margin-bottom:120px;
 }
-#connect-with-me, #about-me-description{
+#connect-with-me, #about-me-description, #portfolio-images{
 	box-shadow: 10px 10px 10px #727171;
 	border-radius:6px;
 	padding:12px;
 	background-color:white;
 	margin: 0px;
+	display:inline-block;
 }
 #connect-with-me ul {
 	display:inline-block;
@@ -93,10 +94,18 @@ h2 {
 	float:left;
 }
 
+#about-me {
+	margin-bottom:30px;
+}
 #about-me p {
 	padding:12px;
-	font-size:25px;
+	font-size:23px;
 }
+.portfolio-single-image img {
+	max-width:100%;
+	border-radius:6px;
+}
+
 .contact-me-icon img{
 	max-width: 100%;
 	border-radius: 3px
@@ -118,4 +127,22 @@ h2 {
 	color:white;
 }
 
+.portfolio-single-image {
+	margin-bottom: 20px;
+	position:relative;
+	display: table;
+}
 
+.portfolio-single-image figcaption{
+	color:white;
+	font:bold 24px;
+	background:rgb(0, 0, 0);
+	background:rgba(74,170, 165, 0.5);
+	position:absolute;
+	max-width:100%;
+	width:92.5%;
+	bottom:50px;
+	text-align:center;
+	line-height:50px;
+	display:block:;
+}
